@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Square : Shape
+public class Square : Shape //INHERTANCE
 {
     public override void Action()
     {
         base.Action();
-        WriteSomething("Square");
+        WriteSomething("Square"); //POLYMORPHISM
     }
 }

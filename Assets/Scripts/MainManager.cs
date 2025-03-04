@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class MainManager : MonoBehaviour
 {
-    public static MainManager Instance { get; private set; }
+    public static MainManager Instance { get; private set; } //ENCAPSULATION
     public Camera Camera;
     public TextMeshProUGUI info;
 
     private string _infoText = "";
-    public string InfoText
+    public string InfoText //ENCAPSULATION
     {
         get { return _infoText; }
         set 

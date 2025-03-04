@@ -9,12 +9,12 @@ public class Shape : MonoBehaviour
         OwnColor = gameObject.GetComponent<Renderer>().material.color;
     }
 
-    public virtual void Action() 
+    public virtual void Action() //POLYMORPHISM
     {
         MainManager.Instance.Camera.backgroundColor = OwnColor;
     }
 
-    protected void WriteSomething(string text)
+    protected void WriteSomething(string text) //ABSTRACTION
     {
         //Debug.Log(text);
         MainManager.Instance.InfoText = text;

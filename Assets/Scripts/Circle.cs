@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Circle : Shape
+public class Circle : Shape //INHERITANCE
 {
     public override void Action()
     {
         base.Action();
-        WriteSomething("Circle");
+        WriteSomething("Circle"); //POLYMORPHISM
     }
 }
